@@ -11,7 +11,7 @@ class Program
        Console.WriteLine(as2.GetSummary());
        Console.WriteLine(as2.GetHomeworkList());
 
-       WritingAssignment as3 = new WritingAssignment("Mary Waters", "European History","The Causes of World War II by Mary Waters");
+       WritingAssignment as3 = new WritingAssignment("Mary Waters", "European History","The Causes of World War II");
        Console.WriteLine(as3.GetSummary());
        Console.WriteLine(as3.GetWritingInfo());
     }
